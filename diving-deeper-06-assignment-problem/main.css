@@ -1,0 +1,18 @@
+.nice-box {
+    color: white;
+    background: black;
+    padding: 5px 10px 8px 15px;
+    border: 2px solid red;
+    margin: 8px 10px 10px 5px;
+    display: inline-block;
+}
+
+.nice-box:first-of-type {
+    height: 300px;
+    width: 50%;
+}
+
+.nice-box:last-of-type:hover {
+    background: red;
+    color: black;
+}
